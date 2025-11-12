@@ -1,0 +1,8 @@
+{
+  // SAMのテンプレートを見やすくするための設定例
+  "yaml.schemas": {
+    "https://raw.githubusercontent.com/awslabs/serverless-application-model/master/sam-spec.schema.json": "/infrastructure/template.yaml"
+  },
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
+}
