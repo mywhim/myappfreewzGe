@@ -10,6 +10,22 @@
     </div>
 
     <script>
-        // **ここに以下の JavaScript コードを記述**
+        //Day1
+        const app = Vue.createApp({
+            data() {
+                return {
+                    count: 0,
+                    message: 'リアクティブなカウンター'
+                }
+            },
+            methods: {
+                increment() {
+                    this.count++;
+                    this.message = 'クリックされました！';
+                }
+            }
+        });
+        //Vueアプリを id="app" の要素に紐づける
+        app.mount('#app')
     </script>
 </body>
